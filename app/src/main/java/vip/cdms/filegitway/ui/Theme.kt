@@ -11,7 +11,7 @@ private val DarkColors = darkColors()
 private val LightColors = lightColors()
 
 @Composable
-fun FileGitwayTheme(
+fun AppTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
